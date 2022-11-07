@@ -27,16 +27,16 @@ export default function Home() {
               {
                 controlViewMode.mode != 2 && (
                   <>
-                    <Text>You can use two "block".</Text>
-                    <Text><b>Simple:</b> insert a simple line of text.</Text>
-                    <Text><b>List:</b> add a list of words. All word become random when generate.</Text>
+                    <Text>{`You can use two "block".`}</Text>
+                    <Text><b>{`Simple:`}</b>{` insert a simple line of text.`}</Text>
+                    <Text><b>{`List:`}</b>{` add a list of words. All word become random when generate.`}</Text>
                   </>
                 )
               }
               {
                 controlViewMode.mode != 0 && (
                   <>
-                    <Text>Click <b>"GENERATE"</b> to create your result.</Text>
+                    <Text>{`Click `}<b>{`"GENERATE"`}</b>{` to create your result.`}</Text>
                   </>
                 )
               }
